@@ -23,17 +23,14 @@ This project presents a comprehensive kinematic analysis of a 3-DOF (three degre
 ## Repository Contents
 
 ```
-├── main.tex              # LaTeX source for the report
-├── main.pdf              # Compiled report (CI journal format)
-├── src/
-│   └── kinematics.py     # Python implementation (FK, IK, workspace)
-├── figures/
-│   ├── robot_arm.png
-│   ├── fk_test.png
-│   ├── ik_elbow_up.png
-│   ├── ik_elbow_down.png
-│   ├── workspace_full.png
-│   └── workspace_restricted.png
+├── HW2-2.pdf             # Compiled report (CI journal format)
+├── kinematics             # Python implementation (FK, IK, workspace)
+├── robot_arm.png          # Robot schema figure
+├── robot_arm2.png         # Alternative robot schema
+├── fk_test.png            # FK test case figure
+├── ik_elbow_up.png        # IK elbow-up solution
+├── ik_elbow_down.png      # IK elbow-down solution
+├── workspace.png          # Workspace analysis figure
 └── README.md
 ```
 
@@ -46,7 +43,7 @@ pip install numpy matplotlib
 
 ### Execution
 ```bash
-python src/kinematics.py
+python kinematics
 ```
 
 This will:
